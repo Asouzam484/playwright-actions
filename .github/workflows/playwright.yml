@@ -9,8 +9,8 @@ jobs:
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
-    - name: get code
-    - uses: actions/checkout@v4
+    - name: Get code
+      uses: actions/checkout@v4
 
     - name: Install Node 22
       uses: actions/setup-node@v4
