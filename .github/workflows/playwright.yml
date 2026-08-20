@@ -4,8 +4,8 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-     workflow_dispatch:
-  jobs:
+  workflow_dispatch:
+jobs:
   e2e-tests:
     timeout-minutes: 60
     runs-on: ubuntu-latest
